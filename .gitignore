@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AddRemoveHandler/AddRemoveAccessors/obj
+/AddRemoveHandler/AddRemoveAccessors/bin/Debug/net6.0
+/AddRemoveHandler/AddRemoveAccessors/.vs/AddRemoveAccessors
+/AddRemoveHandler/AddRemoveAccessors/AddRemoveAccessors.csproj
+/.vs
