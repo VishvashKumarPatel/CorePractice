@@ -1,13 +1,22 @@
 ﻿using System.ComponentModel;
+using System.Runtime.InteropServices;
 using System.Runtime.Remoting;
 
 namespace AddRemoveAccessors
 {
     internal class Program
     {
+
+        static void CheckArray(int[][] number)
+        {
+
+
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Press any Key to start device");
+            int[,] matrix = new int[4, 3]; // Create a 3x3 matrix
+            //CheckArray(aray);
 
             IDevice device = new Device();
             device.RunDevice();
